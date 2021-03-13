@@ -8,7 +8,7 @@ sys.path.append("../")
 
 from ray import tune
 from beta_rec.core.train_engine import TrainEngine
-from beta_rec.models.vae_recom import VAECFEngine
+from beta_rec.models.vaecf import VAECFEngine
 from beta_rec.utils.common_util import DictToObject, str2bool
 from beta_rec.utils.monitor import Monitor
 
